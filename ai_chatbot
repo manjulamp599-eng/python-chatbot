@@ -1,0 +1,106 @@
+print("======================================")
+print("          SIMPLE AI CHATBOT")
+print("======================================")
+
+print("Bot: Hello! I am your AI Chatbot.")
+print("Bot: Type 'help' to see what I can answer.")
+print("Bot: Type 'bye' to exit.")
+print()
+
+while True:
+
+    user = input("You: ").lower().strip()
+
+    # Greetings
+    if user == "hello" or user == "hi" or user == "hey":
+        print("Bot: Hello! Nice to meet you.")
+
+    # How are you
+    elif user == "how are you":
+        print("Bot: I am fine. Thank you for asking!")
+
+    # Name
+    elif user == "what is your name":
+        print("Bot: My name is Simple AI Chatbot.")
+
+    # Who are you
+    elif user == "who are you":
+        print("Bot: I am a rule-based chatbot created using Python.")
+
+    # AI
+    elif user == "what is ai":
+        print("Bot: AI stands for Artificial Intelligence.")
+
+    # Machine Learning
+    elif user == "what is machine learning":
+        print("Bot: Machine Learning is a branch of Artificial Intelligence.")
+
+    # Python
+    elif user == "what is python":
+        print("Bot: Python is a popular programming language.")
+
+    # Programming
+    elif user == "what is programming":
+        print("Bot: Programming is the process of giving instructions to a computer.")
+
+    # Computer
+    elif user == "what is a computer":
+        print("Bot: A computer is an electronic device that processes information.")
+
+    # Internet
+    elif user == "what is internet":
+        print("Bot: The Internet is a global network that connects computers and devices.")
+
+    # Study
+    elif user == "how to study":
+        print("Bot: Make a timetable, study regularly, and practice questions.")
+
+    # Exam
+    elif user == "how to prepare for exam":
+        print("Bot: Start early, revise important topics, and solve previous questions.")
+
+    # College
+    elif user == "what is college":
+        print("Bot: College is an institution where students receive higher education.")
+
+    # Good morning
+    elif user == "good morning":
+        print("Bot: Good morning! Have a wonderful day.")
+
+    # Good evening
+    elif user == "good evening":
+        print("Bot: Good evening! How can I help you?")
+
+    # Good night
+    elif user == "good night":
+        print("Bot: Good night! See you tomorrow.")
+
+    # Thanks
+    elif user == "thanks" or user == "thank you":
+        print("Bot: You're welcome!")
+
+    # Help
+    elif user == "help":
+        print()
+        print("Bot: You can ask me:")
+        print("1. What is AI?")
+        print("2. What is Python?")
+        print("3. What is Machine Learning?")
+        print("4. What is programming?")
+        print("5. What is a computer?")
+        print("6. What is internet?")
+        print("7. How to study?")
+        print("8. How to prepare for exam?")
+        print("9. What is college?")
+        print("10. Who are you?")
+        print()
+
+    # Exit
+    elif user == "bye" or user == "exit":
+        print("Bot: Goodbye! Have a great day.")
+        break
+
+    # Unknown question
+    else:
+        print("Bot: Sorry, I don't understand your question.")
+        print("Bot: Type 'help' to see what I can answer.")
